@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: k8s-springboot
-        image: klee2020/helloworld
+        image: klee2020/helloworld:1.0
         ports:
         - name: nodejs-port
           containerPort: 3000
